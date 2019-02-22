@@ -11,37 +11,46 @@ body{
 
 .heading {
     background: #788a8a;
-    margin: 0 auto;
+    margin: 0 auto; 
+    padding-top: 100px;
 }
 
 .header-container {
     width: 960px;
     margin: 0 auto;
+    position: relative;
 }
 
 .top {
-    background: #8a8178;
+    background: rgb(173, 165, 165);
     color: #fff;
-    width: 100px;
+    width: auto;
+    position: absolute;
+    bottom: 0px;
+    padding: 20px 30px;
+    border-radius: 3px;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .box-1 {
-    padding: 10px;
+    padding: 0px 10px;
+    border-right: 2px solid;
 }
 
 .box-2 {
-    padding: 10px;
+    padding: 0px 10px;
+    border-right: solid 2px;
 }
 
 .box-3 {
-    padding: 10px;
+    padding: 0 px 10px;
+    margin-left: 10px;
 }
 
 .content {
